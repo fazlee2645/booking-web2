@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - USASTAYZ Booking</title>
+  <!-- favicons Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon.png">
+  <!-- <link rel="manifest" href="assets/images/favicons/site.webmanifest"> -->
+  <link rel="shortcut icon" href="./favicon/favicon.png" type="image/x-icon">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Geologica:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
+  <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
+  <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
+  <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
+  <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
+  <link rel="stylesheet" href="assets/vendors/daterangepicker-master/daterangepicker.css">
+	<link rel="stylesheet" href="assets/vendors/travhub-icons/style.css">
+  <link rel="stylesheet" href="assets/vendors/travhub-icons2/style.css" />
+  <link rel="stylesheet" href="assets/vendors/daterangepicker-master/daterangepicker.css">
+  <link rel="stylesheet" href="assets/vendors/slick/slick.css">
+  <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
+
+<!-- template styles -->
+<link rel="stylesheet" href="assets/css/travhub.css" />
+</head>
+
+<body class="custom-cursor">
+  <div class="custom-cursor__cursor"></div>
+  <div class="custom-cursor__cursor-two"></div>
+ 
+ <div class="page-wrapper">
+	<div class="topbar-one">
+	    <div class="container">
+	        <div class="topbar-one__inner">
+	            <ul class="list-unstyled topbar-one__info">
+	                <li class="topbar-one__info__item">
+	                    <i class="flaticon-pin-1 topbar-one__info__icon"></i>
+	                    Journal Square, Jersey City, New Jersey, United States
+	                </li>
+	                <li class="topbar-one__info__item topbar-one__info__item--last">
+	                    <i class="flaticon-mail topbar-one__info__icon"></i>
+	                    <a href="mailto:info@usastayz.com">info@usastayz.com</a>
+	                </li>
+	            </ul><!-- /.list-unstyled topbar-one__info -->
+	        </div><!-- /.topbar-one__inner -->
+	    </div><!-- /.container-fluid -->
+	</div><!-- /.topbar-one -->
+	<header class="main-header sticky-header sticky-header--normal">
+	    <div class="container">
+	        <div class="main-header__inner">
+	            <div class="main-header__logo">
+	                <a href="https://www.usastayz.com/">
+	                    <h1 class="footer-head" width="152">USASTAYZ</h1>
+	                </a>
+	            </div><!-- /.main-header__logo -->
+	            <nav class="main-header__nav main-menu">
+	                <ul class="main-menu__list">
+						<li class="dropdown">
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<li class="dropdown">
+							<a href="destination.html">Rooms</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+	            </nav><!-- /.main-header__nav -->
+	            <div class="main-header__right">
+	                <div class="mobile-nav__btn mobile-nav__toggler">
+	                    <span></span>
+	                    <span></span>
+	                    <span></span>
+	                </div><!-- /.mobile-nav__toggler -->
+					<a href="#" class="search-toggler main-header__search">
+					</a><!-- /.search-toggler -->
+	                <div class="main-header__btn">
+	                    <a href="booking.html" target="_blank" class="travhub-btn">
+	                        <span>Start Booking</span>
+	                    </a><!-- /.thm-btn main-header__btn -->
+	                </div>
+	            </div><!-- /.main-header__right -->
+	        </div><!-- /.main-header__inner -->
+	    </div><!-- /.container-fluid -->
+	</header><!-- /.main-header -->
+
+	<section class="hero-one">
+		<div class="container">
+			<div class="hero-one__content">
+				<h5 class="hero-one__sub-title sub-title bw-split-in-left">Welcome to USASTAYZ </h5>
+				<h2 class="hero-one__title title bw-split-in-down">Adventure & Experience The Travel </h2><!-- slider-title -->
+				<p class="hero-one__text sub-title bw-split-in-left"></p><!-- /.hero-one__text -->
+			</div><!-- /.hero-one__content -->
+		</div><!-- /.container -->
+		<div class="hero-one__form">
+			<div class="banner-form wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='300ms'>
+				<form class="banner-form__wrapper" action="booking_confirm.html">
+					<div class="banner-form row gutter-x-30 align-items-center">
+						<div class="banner-form__control banner-form__col--1 banner-form__control--form">
+							<i class="icon icon-calendar-1"></i>
+							<label for="date">Check In - Out</label>
+							<input class="travhub-multi-datepicker" id="date" type="text" name="date" placeholder="Select Date">
+						</div>
+						<div class="banner-form__control banner-form__col--2">
+							<i class="icon icon-luggage--1"></i>
+							<label for="type2">Type</label>
+							<select name="type" class="selectpicker" id="type2">
+								<option value="select">Booking Type</option>
+								<option value="Spain">Holiday</option>
+								<option value="africa">Official</option>
+							</select>
+						</div>
+
+						<div class="banner-form__control banner-form__col--4">
+							<i class="icon icon-traveler-with-a-suitcase-1"></i><!-- / -->
+							<label for="guests">Adults</label>
+							<input id="guests" type="number" value="01" name="guests" placeholder="2">
+						</div>
+
+						<div class="banner-form__control banner-form__col--4">
+							<i class="icon icon-traveler-with-a-suitcase-1"></i><!-- / -->
+							<label for="guests">Childs</label>
+							<input id="guests" type="number" value="01" name="guests" placeholder="2">
+						</div>
+
+						<div class="banner-form__control banner-form__button banner-form__col--5">
+							<button class="travhub-btn" type="submit"><span>  Submit <i class="icon-magnifying-glass-1"></i></span></button>
+						</div>
+
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="hero-one__shape-one" style="background-image: url(assets/images/shapes/group-1-1.png);"></div>
+		<!-- /.hero-one__shape -->
+		<div class="hero-one__image">
+			<div class="hero-one__image-one travhub-splax" data-para-options='{
+				"orientation": "up",
+				"scale": 2.5,
+				"overflow": true
+				}'>
+				<img src="./images/171 x 243.jpeg" alt="image">
+			</div><!-- /.hero-one__image-one -->
+			<div class="hero-one__image-two travhub-splax" data-para-options='{
+				"orientation": "up",
+				"scale": 2.5,
+				"overflow": true
+				}'>
+				<img src="./images/161 x 161.jpeg" alt="image">
+			</div><!-- /.hero-one__image-one -->
+			<div class="hero-one__image-three travhub-splax" data-para-options='{
+				"orientation": "up",
+				"scale": 2.5,
+				"overflow": true
+				}'>
+				<img src="./images/138 x 221.jpeg" alt="image">
+			</div><!-- /.hero-one__image-one -->
+			<div class="hero-one__image-four travhub-splax" data-para-options='{
+				"orientation": "up",
+				"scale": 2.5,
+				"overflow": true
+				}'>
+				<img src="./images/142 x 142.jpeg" alt="image">
+			</div><!-- /.hero-one__image-one -->
+		</div><!-- /.hero-one__image -->
+		<div class="hero-one__shape-two">
+			<img src="assets/images/shapes/plane.png" alt="image">
+		</div><!-- /.hero-one__shape-two -->
+		<div class="hero-one__shape-four">
+			<img src="assets/images/shapes/cloude-1-2.png" alt="image">
+		</div><!-- /.hero-one__shape-two -->
+	</section><!-- /.hero-one -->
+
+	<section class="why-choose-one">
+		<div class="why-choose-one__bg" style="background-image: url(assets/images/shapes/why-choose-one-bg.png);"></div>
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-xl-6 wow fadeInUp" data-wow-delay="300ms">
+					<div class="why-choose-one__image">
+						<img src="./images/438 x 544.jpeg" alt="travhub">
+						<div class="why-choose-one__image__shape" style="background-image: url(assets/images/shapes/why-choose-one-shape.png);"></div>
+						<div class="why-choose-one__image__two">
+							<img src="images/144 x 208.jpeg" alt="travhub">
+						</div>
+						<div class="why-choose-one__check">
+							<div class="why-choose-one__check__icon"><i class="flaticon-check"></i></div>
+							<div class="why-choose-one__check__title">Trusted by<span>Trustpilot & rating</span></div>
+						</div>
+						<div class="why-choose-one__rm">
+							<a href="about.html"><i class="flaticon-top-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms">
+					<div class="why-choose-one__content">
+						<div class="sec-title">
+							<div class="sec-title__tagline bw-split-in-right">Why we are<img src="assets/images/shapes/sec-title-shape.png" alt="Travhub"></div>
+							<h3 class="sec-title__title bw-split-in-left">Why Choose Us</h3>
+							<p class="sec-title__text bw-split-in-up-fast">
+								Welcome to our beautifully renovated property in Jersey City! This modern and stylish space is crafted for your ultimate comfort and convenience. With plenty of natural light, you’ll feel right at home in our clean, contemporary surroundings.
+								
+							</p>
+						</div>
+						<div class="why-choose-one__box">
+							<div class="why-choose-one__box__icon"><i class="flaticon-signpost"></i></div>
+							<h5 class="why-choose-one__box__title">What this place offers</h5>
+							<p class="why-choose-one__box__text">
+								<li>Hello</li>
+								<li>Garden view</li>
+								<li>Wifi</li>
+								<li>Kitchen</li>
+								<li>Dedicated workspace</li>
+								<li>Free driveway parking on premises – 1 space</li>
+								<li>65-inch HDTV with Netflix</li>
+								<li>EV charger – level 2</li>
+								<li>Free washer – In unit</li>
+								<li>Free dryer – In unit</li>
+								<li>Exterior security cameras on property</li>
+							</p>
+						</div><!-- why-choose-one__box -->
+						<div class="why-choose-one__btn">
+							<a href="booking.html" target="_blank" class="travhub-btn">
+								<span>Start Booking</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- why-choose-one -->
+	
+	<section class="tours-one">
+		<div class="container">
+			<div class="sec-title text-center">
+				<div class="sec-title__tagline bw-split-in-right">Featured Rooms<img src="assets/images/shapes/sec-title-shape.png" alt="Travhub"></div>
+				<h3 class="sec-title__title bw-split-in-left">Most Favorite Rooms</h3>
+				<!-- <p class="sec-title__text bw-split-in-up-fast">
+					content of a page when looking at layout the point<br> of using lorem the is Ipsum less
+				</p> -->
+			</div>
+			<div class="tours-one__carousel travhub-owl__carousel travhub-owl__carousel--basic-nav owl-carousel" data-owl-options='{
+				"loop": false,
+				"items": 1,
+				"nav": false,
+				"navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+				"dots": true,
+				"margin": 24,
+				"responsive": {
+					"0": {
+						"items": 1
+					},
+					"768": {
+						"items": 2
+					},
+					"992": {
+						"items": 2
+					},
+					"1200": {
+						"items": 3
+					}
+				}
+				}'>
+				<div class="item">
+					<div class="tours-one__item">
+						<img src="./images/424 x 513.jpeg" alt="travhub"><!-- /.tours-one__image -->
+						<div class="tours-one__item__wishlist">
+						</div><!-- /.tours-one__item__btn -->
+						<div class="tours-one__item__content">
+							<div class="tours-one__item__feature">Bedroom</div>
+						</div><!-- /.tours-one__content -->
+						<div class="tours-one__item__btn">
+							<a href="#" class="card__popup"
+								data-gallery-options='{
+									"items": [
+										{
+											"src": "images/424 x 513.jpeg"
+										},
+										{
+											"src": "images/424 x 513 (2).jpeg"
+										},
+										{
+											"src": "images/424 x 513 (3).jpeg"
+										}
+									],
+									"gallery": {
+										"enabled": true
+									},
+									"type": "image"
+								}'>
+								<i class="flaticon-camera-1"></i>
+							</a>
+							<!-- <a class="video-popup" href="https://www.youtube.com/watch?v=G49_MdP0klg"><i class="flaticon-video"></i></a> -->
+						</div><!-- /.tours-one__item__btn -->
+					</div><!-- /.tours-one__item -->
+				</div><!-- /.item -->
+				<div class="item">
+					<div class="tours-one__item">
+						<img src="./images/Living Room/living-room-1.jpeg" alt="travhub"><!-- /.tours-one__image -->
+						<div class="tours-one__item__wishlist">
+						</div><!-- /.tours-one__item__btn -->
+						<div class="tours-one__item__content">
+							<div class="tours-one__item__feature">Living Room</div>
+						</div><!-- /.tours-one__content -->
+						<div class="tours-one__item__btn">
+							<a href="#" class="card__popup"
+								data-gallery-options='{
+									"items": [
+									{
+										"src": "images/Living Room/living-room-2.jpeg"
+									},
+									{
+										"src": "images/Living Room/living-room-3.jpeg"
+									},
+									{
+										"src": "images/Living Room/living-room-4.jpeg"
+									}
+									],
+									"gallery": {
+										"enabled": true
+									},
+									"type": "image"
+								}'>
+								<i class="flaticon-camera-1"></i>
+							</a>
+							<!-- <a class="video-popup" href="https://www.youtube.com/watch?v=G49_MdP0klg"><i class="flaticon-video"></i></a> -->
+						</div><!-- /.tours-one__item__btn -->
+					</div><!-- /.tours-one__item -->
+				</div><!-- /.item -->
+				<div class="item">
+					<div class="tours-one__item">
+						<img src="./images/Dinning Area/dining-1.jpeg" alt="travhub"><!-- /.tours-one__image -->
+						<div class="tours-one__item__wishlist">
+							<a href="destination.html"><i class="icon-heart-1"></i></a>
+						</div><!-- /.tours-one__item__wishlist -->
+						<div class="tours-one__item__content">
+							<div class="tours-one__item__feature">Dinning Area</div>
+						</div><!-- /.tours-one__content -->
+						<div class="tours-one__item__btn">
+							<a href="#" class="card__popup"
+								data-gallery-options='{
+									"items": [
+									{
+										"src": "images/Dinning Area/dining-2.jpeg"
+									},
+									{
+										"src": "images/Dinning Area/dining-3.jpeg"
+									},
+									{
+										"src": "images/Dinning Area/dining-4.jpeg"
+									}
+									],
+									"gallery": {
+										"enabled": true
+									},
+									"type": "image"
+								}'>
+								<i class="flaticon-camera-1"></i>
+							</a>
+							<!-- <a class="video-popup" href="https://www.youtube.com/watch?v=G49_MdP0klg"><i class="flaticon-video"></i></a> -->
+						</div><!-- /.tours-one__item__btn -->
+					</div><!-- /.tours-one__item -->
+				</div><!-- /.item -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- tours-one -->
+
+	<section class="counter-one">
+		<div class="counter-one__shape travhub-splax" data-para-options='{
+			"orientation": "up",
+			"scale": 2.0,
+			"overflow": true
+			}'>
+			<img src="assets/images/shapes/counter-1-shape.png" alt="travhub">
+		</div>
+		<div class="container">
+			<div class="row align-items-end gutter-y-30">
+				<div class="col-lg-6">
+					<div class="counter-one__image  wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
+						<div class="counter-one__image__left">
+							<div class="counter-one__image__one">
+								<img src="./images/337 x 442.jpeg" alt="travhub">
+							</div><!-- /.counter-one__image__one -->
+						</div><!-- /.counter-one__image__left -->
+						<div class="counter-one__image__right">
+							<div class="counter-one__image__two">
+								<img src="./images/173 x 173.jpeg" alt="travhub">
+							</div><!-- /.counter-one__image__two -->
+							<div class="counter-one__image__two">
+								<img src="images/166 x 237 (1).jpeg" alt="travhub">
+							</div><!-- /.counter-one__image__two -->
+						</div><!-- /.counter-one__image__right -->
+						<div class="counter-one__image__shape">
+							<img src="./images/166 x 237 (2).jpeg" alt="travhub">
+						</div><!-- /.counter-one__image__shape -->
+					</div><!-- /.counter-one__image -->
+				</div>
+				<div class="col-lg-6">
+					<div class="counter-one__funfact  wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="100ms">
+						<div class="counter-one__funfact__item  count-box">
+							<h3 class="counter-one__funfact__count">
+								<span class="count-text" data-stop="2" data-speed="1500"></span>
+								<span class="counter-one__funfact__count-tag">k</span>
+							</h3><!-- /.counter-one__funfact__count -->
+							<p class="counter-one__funfact__text">Our happy Customers around the word</p><!-- /.counter-one__funfact__text -->
+						</div><!-- /.counter-one__funfact__item -->
+						<div class="counter-one__funfact__item count-box">
+							<h3 class="counter-one__funfact__count">
+								<span class="count-text" data-stop="280" data-speed="1500"></span>
+								<span class="counter-one__funfact__count-tag">+</span>
+							</h3><!-- /.counter-one__funfact__count -->
+							<p class="counter-one__funfact__text">Times Booked</p><!-- /.counter-one__funfact__text -->
+						</div><!-- /.counter-one__funfact__item -->
+						<div class="counter-one__funfact__item count-box">
+							<h3 class="counter-one__funfact__count">
+								<span class="count-text" data-stop="24" data-speed="1500"></span>
+								<span class="counter-one__funfact__count-tag">HR</span>
+							</h3><!-- /.counter-one__funfact__count -->
+							<p class="counter-one__funfact__text">Power Backup</p><!-- /.counter-one__funfact__text -->
+						</div><!-- /.counter-one__funfact__item -->
+						<div class="counter-one__funfact__item count-box">
+							<h3 class="counter-one__funfact__count">
+								<span class="count-text" data-stop="1" data-speed="1500"></span>
+								<span class="counter-one__funfact__count-tag">KM</span>
+							</h3><!-- /.counter-one__funfact__count -->
+							<p class="counter-one__funfact__text">City Center</p><!-- /.counter-one__funfact__text -->
+						</div><!-- /.counter-one__funfact__item -->
+						<div class="counter-one__funfact__item-two count-box">
+							<h3 class="counter-one__funfact__item-two__count">
+								<span class="count-text" data-stop="4.8" data-speed="1500"></span>
+							</h3><!-- /.counter-one__funfact__count -->
+						</div><!-- /.counter-one__funfact__item-two -->
+						<span class="counter-one__funfact__line"></span>
+						<span class="counter-one__funfact__line-two"></span>
+					</div><!-- /.counter-one__funfact -->
+				</div>
+			</div>
+		</div><!-- /.container -->
+	</section><!-- counter-one -->
+
+	<section class="team-one">
+		<div class="team-one__shape travhub-splax" data-para-options='{
+			"orientation": "up",
+			"scale": 2.5,
+			"overflow": true
+			}'>
+			<img src="assets/images/shapes/team-1-shape.png" alt="travhub"/>
+		</div>
+		<div class="container">
+			<div class="sec-title text-center wow fadeInUp" data-wow-delay="00ms">
+				<div class="sec-title__tagline bw-split-in-right">Meet With Our CEO<img src="assets/images/shapes/sec-title-shape.png" alt="Travhub"></div>
+				<!-- <p class="sec-title__text bw-split-in-up-fast">
+					content of a page when looking at layout the point<br> of using lorem the is Ipsum less
+				</p> -->
+			</div>
+			<div class="row gutter-x-24 gutter-y-24">
+				<div class="col-xl-3 col-md-6">
+					<div class="team-one__item wow fadeInUp" data-wow-delay="100ms">
+						<div class="team-one__item__image">
+							<img src="./images/tour guide/divya.jpeg" alt="team">
+						</div><!-- /.team-one__item__image -->
+						<div class="team-one__item__content">
+							<h4 class="team-one__item__title"><a href="team.html">Divyanshi Traokroo</a></h4><!-- /.team-one__item__title -->
+							<p class="team-one__item__text">CEO</p>
+						</div><!-- /.team-one__item__content -->
+					</div><!-- /.team-one__item -->
+				</div><!-- /.col-xl-3 col-md-6 -->
+	</section><!--team-one-->
+
+	<section class="testimonials-one">
+		<div class="testimonials-one__bg" style="background-image: url(assets/images/shapes/page-header-bg-shape.png);"></div>
+		<div class="testimonials-one__shape travhub-splax" data-para-options='{
+			"orientation": "up",
+			"scale": 2.5,
+			"overflow": true
+			}'>
+			<img src="assets/images/shapes/testimonials-1-shape.png" alt="travhub"/>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6">
+					<div class="testimonials-one__image wow fadeInUp" data-wow-delay="100ms">
+						<div class="testimonials-one__image__one">
+							<img src="./images/160 x 227 (1).jpeg" alt="travhub">
+						</div>
+						<div class="testimonials-one__image__two wow fadeInUp" data-wow-delay="200ms">
+							<img src="./images/160 x 227 (2).jpeg" alt="travhub">
+							<img src="./images/151 x 151 (1).jpeg" alt="travhub">
+							<img src="./images/151 x 151 (2).jpeg" alt="travhub">
+						</div>
+						<div class="testimonials-one__image__three wow fadeInUp" data-wow-delay="300ms">
+							<img src="./images/160 x 227 (3).jpeg" alt="travhub">
+						</div>
+						<div class="testimonials-one__image__shape wow fadeInUp" data-wow-delay="400ms">
+							<img src="assets/images/shapes/test-1-shape.png" alt="travhub">
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 d-flex align-items-center wow fadeInRight" data-wow-delay='400ms'>
+					<div class="testimonials-one__carousel travhub-owl__carousel travhub-owl__carousel--basic-nav owl-carousel"
+						data-owl-options='{
+							"items": 1,
+							"margin": 30,
+							"loop": false,
+							"smartSpeed": 700,
+							"nav": false,
+							"navText": ["<span>Prev</span>","<span>Next</span>"],
+							"dots": false,
+							"autoplay": false
+						}'>
+						<div class="item">
+							<div class="testimonials-card">
+								<div class="testimonials-card__quote"><i class="flaticon-left-quote"></i></div>
+								<div class="testimonials-card__content">
+									Great location, easy to get to NYC via the path.
+								</div><!-- /.testimonials-card__content -->
+								<h3 class="testimonials-card__name">Marissa</h3><!-- /.testimonials-card__name -->
+								<span class="testimonials-card__designation">Guayaquil, Ecuador</span><!-- /.testimonials-card__designation -->
+							</div><!-- /.testimonials-card -->
+						</div><!-- /.item -->
+						<div class="item">
+							<div class="testimonials-card">
+								<div class="testimonials-card__quote"><i class="flaticon-left-quote"></i></div>
+								<div class="testimonials-card__content">
+									Very comfortable accommodation and super close to everything. Travel to NYC was very easy as this place is a 10 min walk from Journal Square.
+								</div><!-- /.testimonials-card__content -->
+								<h3 class="testimonials-card__name">Siddharth</h3><!-- /.testimonials-card__name -->
+								<span class="testimonials-card__designation">Sugar Land, Texas</span><!-- /.testimonials-card__designation -->
+							</div><!-- /.testimonials-card -->
+						</div><!-- /.item -->
+						<div class="item">
+							<div class="testimonials-card">
+								<div class="testimonials-card__quote"><i class="flaticon-left-quote"></i></div>
+								<div class="testimonials-card__content">
+									We had a great stay at this beautiful apartment. It was very spacious and comfortable. I loved the fact that it had 3 bathrooms, especially for a bigger group.
+								</div><!-- /.testimonials-card__content -->
+								<h3 class="testimonials-card__name">Antonio</h3><!-- /.testimonials-card__name -->
+								<span class="testimonials-card__designation">Winston-Salem, North Carolina</span><!-- /.testimonials-card__designation -->
+							</div><!-- /.testimonials-card -->
+						</div>
+							</div><!-- /.testimonials-card -->
+						</div><!-- /.item -->
+					</div><!-- /.testimonials-one__carousel -->
+				</div>
+			</div>
+		</div><!-- /.container -->
+	</section><!-- /.testimonials-one -->
+
+	
+				</div><!-- item -->
+				
+				</div><!-- item -->
+				
+				</div><!-- item -->
+			</div><!-- carousel -->
+		</div>
+	</section>
+	<!-- blog-end -->
+
+	<footer class="main-footer">
+			<div class="mc-form__response"></div><!-- /.mc-form__response -->
+		</div><!-- /.main-footer__top -->
+			<div class="row">
+				<div class="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="00ms">
+					<div class="footer-widget footer-widget--about">
+						<a href="https://www.usastayz.com/" class="footer-widget__logo">
+							<h1 class="footer-head" width="185">USASTAYZ</h1>
+						</a>
+						<p class="footer-widget__text">
+							<a href="mailto:info@usastayz.com">Info@usastayz.com</a>
+						</p>
+					</div><!-- /.footer-widget -->
+				</div><!-- /.col-md-6 -->
+				<div class="col-md-6 col-xl-2 wow fadeInUp" data-wow-delay="100ms">
+					<div class="footer-widget footer-widget--links">
+						<h2 class="footer-widget__title">Links</h2><!-- /.footer-widget__title -->
+						<ul class="list-unstyled footer-widget__links">
+							<li><a href="https://www.usastayz.com/">Home</a></li>
+							<li><a href="about.html">About us</a></li>
+							<li><a href="destination.html">Rooms</a></li>
+							<!-- <li><a href="blog-grid-right.html">Blog</a></li> -->
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul><!-- /.list-unstyled footer-widget__links -->
+					</div><!-- /.footer-widget -->
+				</div><!-- /.col-md-6 -->
+				<div class="col-md-6 col-xl-2 wow fadeInUp" data-wow-delay="200ms">
+					<div class="footer-widget footer-widget--links-two">
+						<h2 class="footer-widget__title">More Links</h2><!-- /.footer-widget__title -->
+						<ul class="list-unstyled footer-widget__links">
+							<li><a href="booking.html">Book Your Room</a></li>
+							<!-- <li><a href="about.html">Terms & conditions</a></li>
+							<li><a href="pricing.html">Privacy policy</a></li>
+							<li><a href="login.html">Cookie policy</a></li> -->
+						</ul><!-- /.list-unstyled footer-widget__links -->
+					</div><!-- /.footer-widget -->
+				</div>
+				</div><!-- /.col-md-6 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+		<div class="main-footer__bottom  wow fadeInUp" data-wow-delay="00ms">
+			<div class="container">
+				<div class="main-footer__bottom__inner">
+					<p class="main-footer__copyright">
+						&copy; Copyright - <a href="https://usastayz.com/" target="_blank"> USASTAYZ </a><span class="dynamic-year"></span> Designed by <a href="https://techplustalent.com/" target="_blank">TechPlus Talent</a>
+					</p>
+				</div><!-- /.main-footer__inner -->
+			</div><!-- /.container -->
+		</div><!-- /.main-footer__bottom -->
+	</footer><!-- /.main-footer -->
+
+</div><!-- /.page-wrapper -->
+
+
+<div class="mobile-nav__wrapper">
+	<div class="mobile-nav__overlay mobile-nav__toggler"></div>
+	<!-- /.mobile-nav__overlay -->
+	<div class="mobile-nav__content">
+		<span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+		<div class="logo-box">
+			<a href="https://www.usastayz.com/" aria-label="logo image"><h1 class="footer-head" width="155">USASTAYZ</h1></a>
+		</div>
+		<!-- /.logo-box -->
+		<div class="mobile-nav__container"></div>
+		<!-- /.mobile-nav__container -->
+
+		<ul class="mobile-nav__contact list-unstyled">
+			<li>
+				<i class="fa fa-envelope"></i>
+				<a href="mailto:info@usastayz.com">info@usastayz.com</a>
+			</li>
+			<!-- <li>
+				<i class="fa fa-phone-alt"></i>
+				<a href="tel:666-888-0000">666 888 0000</a>
+			</li> -->
+		</ul><!-- /.mobile-nav__contact -->
+		<!-- <div class="mobile-nav__social">
+			<a href="https://facebook.com">
+				<i class="fab fa-facebook-f" aria-hidden="true"></i>
+				<span class="sr-only">Facebook</span>
+			</a>
+			<a href="https://twitter.com">
+				<i class="fab fa-twitter" aria-hidden="true"></i>
+				<span class="sr-only">Twitter</span>
+			</a>
+			<a href="https://linkedin.com">
+				<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+				<span class="sr-only">Linkedin</span>
+			</a>
+			<a href="https://instagram.com">
+				<i class="fab fa-instagram" aria-hidden="true"></i>
+				<span class="sr-only">Instagram</span>
+			</a> -->
+		</div><!-- /.mobile-nav__social -->
+	</div>
+	<!-- /.mobile-nav__content -->
+</div>
+<!-- /.mobile-nav__wrapper -->
+<div class="search-popup">
+	<div class="search-popup__overlay search-toggler"></div>
+	<!-- /.search-popup__overlay -->
+	<div class="search-popup__content">
+		<form role="search" method="get" class="search-popup__form" action="#">
+			<input type="text" id="search" placeholder="Search Here..." />
+			<button type="submit" aria-label="search submit">
+				<span><i class="flaticon-search"></i></span>
+			</button>
+		</form>
+	</div>
+	<!-- /.search-popup__content -->
+</div>
+<!-- /.search-popup -->
+
+<a href="#" class="scroll-to-top">
+    <svg class="scroll-to-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</a>
+
+
+	<script src="assets/vendors/jquery/jquery-3.7.1.min.js"></script>
+	<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+	<script src="assets/vendors/jarallax/jarallax.min.js"></script>
+	<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+	<script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+	<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+	<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+	<script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/daterangepicker-master/moment.min.js"></script>
+    <script src="assets/vendors/daterangepicker-master/daterangepicker.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+	<script src="assets/vendors/wow/wow.js"></script>
+	<script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+	<script src="assets/vendors/isotope/isotope.js"></script>
+	<script src="assets/vendors/simpleParallax/simpleParallax.min.js"></script>
+	<script src="assets/vendors/slick/slick.min.js"></script>
+	<script src="assets/vendors/countdown/countdown.min.js"></script>
+
+	<!-- gsap js -->
+	<script src="assets/vendors/gsap/gsap.js"></script>
+	<script src="assets/vendors/gsap/scrolltrigger.min.js"></script>
+	<script src="assets/vendors/gsap/splittext.min.js"></script>
+	<script src="assets/vendors/gsap/travhub-split.js"></script>
+	
+	<!-- template js -->
+	<script src="assets/js/travhub.js"></script>
+</body>
+
+</html>
